@@ -7,7 +7,7 @@ export default StyleSheet.create({
         padding:14, 
         margin:5,      
         borderRadius:10,
-        width:"100%"
+        paddingBottom:70
     },
     ımage:{
         height:Dimensions.get("window").height/4,
@@ -17,21 +17,20 @@ export default StyleSheet.create({
         borderTopRightRadius:10,
     },
     text_container:{
-        backgroundColor:"orange",
         padding:5,
         borderBottomRightRadius:10,
-        borderBottomLeftRadius:10
-     
+        borderBottomLeftRadius:10,
     },
     title:{
         fontWeight:"bold",
         fontSize:25,
         color:"black",
+        paddingBottom:15
         
     },
     price:{
-        fontSize:16,
-        color:"white"
+        fontSize:25,
+        color:"black"
        
     },
     instock:{
